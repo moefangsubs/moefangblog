@@ -1,0 +1,30 @@
+/*-- warn untuk front blog --*/
+
+.warnblog {
+	max-width : 100%;
+	border-radius:2pt;
+	padding:5pt;
+	color:white;	
+	/*-- background:rebeccapurple; --*/
+	/*-- background:mediumpurple; --*/
+	/*-- background:green; --*/
+	/*-- background:crimson; --*/
+	background:firebrick; 
+	}
+
+  .warnblog a {
+    color: yellow;
+    font-weight:900;
+    text-decoration:none;
+  }
+  
+.warnblog:before {
+ content:'Dikarenakan adanya '
+}
+.warnblog:after {
+ content:', mulai 25 November 2023, kami hilangkan unduhan gratis via shortlink. Terima kasih.'
+}
+
+  .warnblog a:before {
+    content: 'reuploader tidak bertanggung jawab';
+  }
